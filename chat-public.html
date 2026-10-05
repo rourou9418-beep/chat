@@ -429,7 +429,7 @@
 
   // 模型预设：显示名 → 模型 ID
   var MODEL_PRESETS = [
-    { group: '常用', items: [['claude-fable-5-1', 'Fable 5.1'], ['claude-opus-5', 'Opus 5'], ['claude-sonnet-5', 'Sonnet 5'], ['claude-haiku-4-5', 'Haiku 4.5']] },
+    { group: '常用', items: [['claude-fable-5-1', 'Fable 5.1'], ['claude-opus-5-5', 'Opus 5.5'], ['claude-opus-5', 'Opus 5'], ['claude-sonnet-5', 'Sonnet 5'], ['claude-haiku-4-5', 'Haiku 4.5']] },
     { group: '更多模型', items: [['claude-fable-5', 'Fable 5'], ['claude-opus-4-8', 'Opus 4.8'], ['claude-opus-4-7', 'Opus 4.7'], ['claude-opus-4-6', 'Opus 4.6'], ['claude-sonnet-4-6', 'Sonnet 4.6']] }
   ];
   function isPreset(id) { return MODEL_PRESETS.some(function (g) { return g.items.some(function (it) { return it[0] === id; }); }); }
